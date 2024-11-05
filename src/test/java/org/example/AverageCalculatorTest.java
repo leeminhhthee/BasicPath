@@ -12,7 +12,7 @@ public class AverageCalculatorTest {
         int[] values = {10, 20, -999, 30, 40}; // Các giá trị trong khoảng và sentinel -999
         int minimum = 10;
         int maximum = 50;
-        int expectedAverage = 15; // Tính trung bình của 20 và 30
+        int expectedAverage = 15; // Tính trung bình của 10 và 20
         assertEquals(expectedAverage, calculator.average(values, minimum, maximum));
     }
 
